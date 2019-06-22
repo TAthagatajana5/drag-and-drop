@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    height: 800px;
+    margin: 0px;
+}
+
+.upper_banner{
+    position: relative;
+    height:10%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.logo{
+    width:10%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.upper_middle_space{
+    width:70%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.register{
+    width:10%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;   
+}
+
+.login{
+    width:10%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.register_anchor{
+    
+    
+}
+
+
+.login_anchor{
+    
+}
+.body{
+    position: relative;
+    height:70%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.left_body{
+    width:20%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.center-body{
+    width:60%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.upper_center_body{
+    position: relative;
+    height:60%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.left_upper_center_body{
+    width:50%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.right_upper_center_body{
+    width:50%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.lower_center_body{
+    position: relative;
+    height:40%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.right_body{
+    width:20%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.lower_banner{
+    position: relative;
+    height:20%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.social_media{
+    width:20%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.lower_middle_space{
+    width:50%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.info{
+    width:30%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
