@@ -13,10 +13,10 @@
             </div>
             <div class="upper_middle_space"></div>
             <div class="register">
-                <a class="register_anchor" href="register_form.php">Register</a>
+                <a class="register_anchor" href="registerform.php">Register</a>
             </div>
             <div class="login">
-                <a class="login_anchor" href="login_form.php">Log-in</a>
+                <a class="login_anchor" href="loginform.php">Log-in</a>
             </div>
         </div>
         <div class="body">
