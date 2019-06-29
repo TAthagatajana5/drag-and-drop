@@ -74,7 +74,16 @@ form{
     padding: 0 10px;
     border: none;
     transition: all 0.4s;
+
 }
+.wrapper img{
+    height: 60px;
+    max-width: 190px;
+    justify-content: center;
+    margin-bottom:100px;
+}
+   
+
 
 .other-login .google-login button:hover{
     background-color: red;
