@@ -114,6 +114,20 @@ form{
     margin-left: 15px;
 }
 
+#error{
+    display: none;
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#error p{
+    flex: 1;
+}
+
+
 
 .text{
     font-family: 'Raleway', sans-serif;
@@ -211,6 +225,7 @@ input:focus + .focus-input{
     padding: 0 20px;
     border: none;
     transition: all 0.4s;
+    outline: none;
 }
 
 .btn:hover{

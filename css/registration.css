@@ -74,7 +74,6 @@ form{
     padding: 0 10px;
     border: none;
     transition: all 0.4s;
-
 }
 .wrapper img{
     height: 60px;
@@ -87,7 +86,7 @@ form{
 
 .other-login .google-login button:hover{
     background-color: red;
-    color: #fff;
+    color: #fff;    padding: 0 35px;
 }
 
 .other-login .fb-login button:hover{
@@ -121,6 +120,19 @@ form{
     flex: 1;
     height: 0;
     margin-left: 15px;
+}
+
+#error{
+    display: flex;
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#error p{
+    flex: 1;
 }
 
 
@@ -219,6 +231,7 @@ input:focus + .focus-input{
     padding: 0 20px;
     border: none;
     transition: all 0.4s;
+    outline: none;
 }
 
 .btn:hover{

@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/login.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -25,7 +25,7 @@
     <div class="main">
         <div class="container">
             <div class="wrapper">
-                <form id="submit-form" action="#">
+                <form id="submit-form" action="home.php">
                     <span class="heading">Account Login</span>
                     <div class="other-login">
                             <div class="google-login">
@@ -46,18 +46,20 @@
                         OR
                         <hr class="hr-right">
                     </div>
-                    <span class="text">Username</span>
+                    <div id="error">
+                    </div>
+                    <span class="text">Email</span>
                     <div class="input">
-                        <input type="text" class="username">
+                        <input type="text" class="field email">
                         <span class="focus-input"></span>
-                        <span class="error error-username">
+                        <span class="error error-email">
                             <span class="error-txt-username">Please Fill this Field</span>
                             <span class="error-img"><i class="fas fa-exclamation"></i></span>
                         </span>
                     </div>
                     <span class="text">Password</span>
                     <div class="input">
-                        <input type="password" class="password">
+                        <input type="password" class="field password">
                         <span class="focus-input"></span>
                         <span class="error error-password">
                             <span class="error-txt-password">Please Fill this Field</span>
